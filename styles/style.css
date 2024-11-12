@@ -20,7 +20,7 @@
   grid-template-columns: 5fr 2fr 5fr;
   grid-template-rows: 1fr;
 
-  padding: 92px 24px 92px;
+  padding: 92px 24px;
 }
 
 .header__menu {
@@ -200,7 +200,7 @@
   padding: 0px 0px 41px 40px;
 }
 
-.lots__list {
+.lots__card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 563px;
@@ -210,7 +210,7 @@
   list-style: none;
 }
 
-.lots__card-link {
+.card-link {
   display: block;
   height: 100%;
   position: relative;
@@ -224,7 +224,7 @@
   z-index: 0;
 }
 
-.lots__card {
+.card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -270,7 +270,7 @@
   line-height: 120%;
 }
 
-.lots__link {
+.lots__look-more-link {
   font-size: 20px;
   text-transform: lowercase;
 
